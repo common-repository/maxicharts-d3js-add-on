@@ -1,0 +1,104 @@
+{
+	"name": "max",
+	"children": [
+		{
+			"name": "Creative",
+			"children": [
+				{
+					"name": "cluster",
+					"children": [
+						{
+							"name": "AgglomerativeCluster",
+							"size": 40
+						},
+						{
+							"name": "CommunityStructure",
+							"size": 10
+						},
+						{
+							"name": "HierarchicalCluster",
+							"size": 10
+						},
+						{
+							"name": "MergeEdge",
+							"size": 10
+						}
+					]
+				},
+				{
+					"name": "graph",
+					"children": [
+						{
+							"name": "BetweennessCentrality",
+							"size": 20
+						},
+						{
+							"name": "LinkDistance",
+							"size": 30
+						},
+						{
+							"name": "MaxFlowMinCut",
+							"size": 10
+						},
+						{
+							"name": "ShortestPaths",
+							"size": 5
+						},
+						{
+							"name": "SpanningTree",
+							"size": 20
+						}
+					]
+				},
+				{
+					"name": "optimization",
+					"children": [
+						{
+							"name": "AspectRatioBanker",
+							"size": 30
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Coder",
+			"children": [
+				{
+					"name": "Français",
+					"size": 70
+				},
+				{
+					"name": "Anglais",
+					"size": 20
+				},
+				{
+					"name": "Creative Coding,Formation Creative Coding avec Matt Deslauriers à l'institut Pyramid",
+					"size": 10
+				}
+			]
+		},
+		{
+			"name": "Entrepreneur",
+			"children": [
+				{
+					"name": "Idweblogs",
+					"size": 50
+				},
+				{
+					"name": "Termel",
+					"children": [
+						{
+							"name": "Freelance",
+							"size": 50
+						},
+						{
+							"name": "Autre",
+							"size": 50
+						}
+					]
+				}
+			]
+		}
+	]
+}
